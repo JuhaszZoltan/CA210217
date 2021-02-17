@@ -11,11 +11,13 @@ namespace CA210217
         static void Main(string[] args)
         {
             Lakcim();
+            Console.ReadKey();
         }
 
         private static void Lakcim()
         {
-            
+            Console.Write("irányítószám: ");
+            string iranyitoSzam = Console.ReadLine();
         }
     }
 }
